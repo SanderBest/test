@@ -1,0 +1,62 @@
+.site-index {
+    font-family: 'Lato';
+    color: #FFFFFF;
+}
+
+.site-index button:focus {
+    outline: 0 !important;
+}
+
+.site-index .block-1,
+.site-index .block-2,
+.site-index .block-3,
+.site-index .block-4,
+.site-index .block-5 {
+    position: relative;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+@media (max-width: 1919px) {
+    .site-index .block-1,
+    .site-index .block-2,
+    .site-index .block-3,
+    .site-index .block-4,
+    .site-index .block-5 {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .site-index .block-1,
+    .site-index .block-2,
+    .site-index .block-3,
+    .site-index .block-4,
+    .site-index .block-5 {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .site-index .block-1,
+    .site-index .block-2,
+    .site-index .block-3,
+    .site-index .block-4,
+    .site-index .block-5 {
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+}
+
+@media (max-width: 360px) {
+    .site-index .block-1,
+    .site-index .block-2,
+    .site-index .block-3,
+    .site-index .block-4,
+    .site-index .block-5 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

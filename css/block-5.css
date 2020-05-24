@@ -1,0 +1,119 @@
+.site-index .block-5 {
+    color: #0F192D;
+    background: #F4F6F9;
+
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.site-index .block-5 .block-5-left-content,
+.site-index .block-5 .contact-form {
+    min-height: 680px;
+}
+.site-index .block-5 .block-5-left-content p {
+    max-width: 520px;
+}
+.site-index .block-5 .block-5-header {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: bold;
+
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.site-index .block-5 .block-5-description {
+    max-width: 520px;
+
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.site-index .block-5 .block-5-footer-list {
+    position: absolute;
+    bottom: 60px;
+}
+
+.site-index .block-5 .block-5-footer-list-bottom {
+    display: none;
+}
+
+.site-index .block-5 .block-5-footer {
+    font-size: 11px;
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 991px) {
+
+    .site-index .block-5 {
+        padding-top: 70px;
+        padding-bottom: 0;
+    }
+
+    .site-index .block-5 .block-5-header {
+        margin-top: unset;
+    }
+
+    .site-index .block-5 .block-5-description {
+        margin-bottom: 60px;
+    }
+
+    .site-index .block-5 .block-5-footer-list {
+        display: none;
+    }
+
+    .site-index .block-5 .block-5-footer-list-bottom {
+        display: block !important;
+        margin-top: 50px;
+    }
+
+    .site-index .block-5 .block-5-left-content {
+        height: auto;
+        min-height: auto;
+    }
+
+    .site-index .block-5 .contact-form {
+        height: auto;
+        min-height: auto;
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 580px) {
+    .site-index .block-5 {
+        padding: 60px 30px;
+    }
+
+    .site-index .block-5 .block-5-header {
+        font-size: 34px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+
+    .site-index .block-5 .block-5-button button {
+        width: 100%;
+    }
+
+    .site-index .block-5 .contact-form {
+        margin: unset;
+    }
+}
+
+@media (max-width: 360px) {
+    .site-index .block-5 {
+        padding-bottom: 30px;
+    }
+
+    .site-index .block-5 .block-5-left-content {
+        padding: 0;
+    }
+
+    .site-index .block-5 .block-5-description {
+        margin-bottom: 40px;
+    }
+
+    .site-index .block-5 .block-5-footer-list-bottom {
+        margin-top: 70px;
+    }
+}

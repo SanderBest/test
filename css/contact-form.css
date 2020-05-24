@@ -1,0 +1,132 @@
+.contact-form {
+    padding: 70px;
+
+    max-width: 600px;
+
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 10px 20px #0F101614;
+    border-radius: 10px;
+}
+
+.modal .contact-form {
+    width: 600px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.modal .contact-form .modal-button-close {
+    cursor: pointer;
+    text-align: right;
+}
+.modal .contact-form .modal-button-close img {
+    margin-top: -85px;
+    margin-right: -50px;
+    height: 40px;
+    width: 40px;
+}
+
+.contact-form-header {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.contact-form input {
+    font-size: 20px;
+    line-height: 28px;
+
+    height: 60px;
+    border: 1px solid #0F192D;
+    border-radius: 10px;
+
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.contact-form input:focus {
+    border: 2px solid #00478E;
+}
+
+.contact-form input[aria-invalid=true] {
+    border: 2px solid #EB190E;
+}
+
+.contact-form .help-block {
+    display: block;
+    color: #737373;
+}
+
+.contact-form-button {
+    margin-bottom: 20px;
+}
+
+.contact-form-button button {
+    font-size: 20px;
+    line-height: 28px;
+
+    height: 60px;
+    width: 280px;
+    border: none;
+    background: #EB190E 0 0 no-repeat padding-box;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+
+.contact-form .contact-form-footer {
+    font-size: 11px;
+    line-height: 15px;
+
+    max-width: 280px;
+}
+
+.contact-form .contact-form-footer a,
+.contact-form .contact-form-footer a:hover {
+    color: #0F192D;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .modal .contact-form,
+    .contact-form {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 580px) {
+    .contact-form {
+        width: 100%;
+        padding: 40px 15px;
+    }
+
+    .contact-form-header {
+        font-size: 25px;
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+
+    .contact-form-button button {
+        width: 100%;
+    }
+
+    .modal .contact-form .modal-button-close img {
+        margin-top: -35px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .contact-form {
+        padding-bottom: 30px;
+    }
+
+    .contact-form-button {
+        margin-bottom: 10px;
+    }
+
+    .contact-form-button button {
+        margin-top: 20px;
+    }
+}
