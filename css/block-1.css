@@ -468,13 +468,13 @@
     }
 
     .site-index .block-1 .block-1-content .block-1-content-button-red {
-        margin-top: 30px;
+        margin-top: 10px;
 
         margin-bottom: 70px;
     }
 
     .site-index .block-1 .block-1-content .block-1-content-description {
-        display: none;
+        display: block;
     }
 
     .site-index .block-1 .block-1-arrow {
@@ -489,7 +489,7 @@
         color: #0F192D;
         padding-top: 40px;
         padding-bottom: 35px;
-        display: block;
+        display: none;
         font-weight: 500;
     }
 }
