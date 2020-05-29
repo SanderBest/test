@@ -62,7 +62,7 @@
 }
 
 .wgt-taxsee-reg .wgt-taxsee-reg__block__square {
-    border: none;
+    border: none !important;
     position: absolute;
     top: 378px;
     right: -238px;
